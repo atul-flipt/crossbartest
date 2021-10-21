@@ -23,7 +23,7 @@ def joined(session, details):
     except Exception as e:
         print("could not register procedure: {0}".format(e))
 
-    yield session.publish( u'com.myapp.add_cb',)
+
 
 
 if __name__ == "__main__":

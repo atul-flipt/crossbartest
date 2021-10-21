@@ -51,8 +51,7 @@ console.log("open")
      // console.log("published to 'oncounter' with counter " + counter);
       // CALL a remote procedure
       //
-      session.subscribe('com.myapp.add_cb',  callbk)
-      session.call('com.myapp.add2', [{x:++counter, y:3}]).then(
+       session.call('com.myapp.add2', [{x:++counter, y:3}]).then(
          function (res) {
             console.log("add2() called with result: " + res);
          },
