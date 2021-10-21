@@ -1,7 +1,7 @@
 var autobahn = require('autobahn');
 var connection = new autobahn.Connection({
    realm: "realm1",
-          url: 'ws://54.174.114.159:8080/ws',
+          url: 'ws://18.234.60.88:8080/ws',
          
 });
 connection.onopen = function (session) {
@@ -61,7 +61,6 @@ console.log("open")
             }
          }
       );
-      counter += 1;
-   }, 5);
+   }, 50);
 };
 connection.open();

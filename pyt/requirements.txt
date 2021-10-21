@@ -1,1 +1,4 @@
-autobahn[serialization]==
+autobahn==21.3.1
+aiohttp==3.7.4.post0
+Twisted==21.7.0
+xbr==21.2.1
